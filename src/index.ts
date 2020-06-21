@@ -41,8 +41,8 @@ async function generateCardHash(
   encryptionKey: string
 ): Promise<string> {
   const cardHashKey = await requestCardHashKey(encryptionKey);
-  const querysSring = generateQueryString(card);
-  const encrypted = await RSA.encrypt(querysSring, cardHashKey.publicKey);
+  const queryString = generateQueryString(card);
+  const encrypted = await RSA.encrypt(queryString, cardHashKey.publicKey);
 
   return `${cardHashKey.id}_${encrypted}`;
 }
