@@ -2,6 +2,8 @@
 
 React Native module for generating pagar.me card hashes
 
+![npm](https://img.shields.io/npm/v/react-native-pagarme-card-hash)
+
 ## Support
 
 Only tested on Android, but it should work on iOS.
