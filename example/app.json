@@ -1,0 +1,22 @@
+{
+  "name": "react-native-pagarme-hash-example",
+  "displayName": "PagarmeHash Example",
+  "expo": {
+    "name": "react-native-pagarme-hash-example",
+    "slug": "react-native-pagarme-hash-example",
+    "description": "Example app for react-native-pagarme-hash",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
