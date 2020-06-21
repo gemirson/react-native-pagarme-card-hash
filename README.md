@@ -2,20 +2,32 @@
 
 React Native module for generating pagar.me card hashes
 
+## Support
+
+Only tested on Android, but it should work on iOS.
+
 ## Installation
 
 ```sh
-npm install react-native-pagarme-hash
+yarn add react-native-rsa-native react-native-pagarme-hash
 ```
 
 ## Usage
 
 ```js
-import PagarmeHash from "react-native-pagarme-hash";
+import generateCardHash from 'react-native-pagarme-hash';
 
 // ...
 
-const result = await PagarmeHash.multiply(3, 7);
+const hash = await generateCardHash(
+    {
+        number: '5315084062046316',
+        holderName: 'John Doe',
+        expirationDate: '0921',
+        cvv: '560',
+    },
+    '<your encryption key>'
+);
 ```
 
 ## Contributing
