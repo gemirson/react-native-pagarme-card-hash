@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "react-native-pagarme-hash": ["./src/index"]
+      "react-native-pagarme-card-hash": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

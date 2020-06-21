@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "react-native-pagarme-card-hash": {
+      "signature": "8164dd7f74b2b15bd6027181d40f733f",
+      "file": true
+    }
+  }
+}

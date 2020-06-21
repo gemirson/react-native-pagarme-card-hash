@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {Button, Text, View} from 'react-native';
-import generateCardHash from 'react-native-pagarme-hash';
+import generateCardHash from 'react-native-pagarme-card-hash';
 
 export default function App() {
   const [cardHash, setCardHash] = React.useState('');
