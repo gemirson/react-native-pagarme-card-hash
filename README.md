@@ -6,7 +6,7 @@ React Native module for generating pagar.me card hashes
 
 ## Support
 
-Only tested on Android, but it should work on iOS.
+Works on iOS 10+ and Android 4.1+ 
 
 ## Installation
 
