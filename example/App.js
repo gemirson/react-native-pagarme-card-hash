@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Button, Text, View} from 'react-native';
+import {Button, SafeAreaView, Text} from 'react-native';
 import generateCardHash from 'react-native-pagarme-card-hash';
 
 export default function App() {
@@ -20,9 +20,9 @@ export default function App() {
   }
 
   return (
-    <View>
+    <SafeAreaView>
       <Button title="Generate card_hash" onPress={generateHash} />
       <Text>{cardHash}</Text>
-    </View>
+    </SafeAreaView>
   );
 }
